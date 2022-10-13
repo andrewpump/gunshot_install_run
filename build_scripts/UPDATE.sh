@@ -1,8 +1,8 @@
 # Download repository
 wget https://github.com/andrewpump/gunshot/archive/refs/heads/main.zip
-unzip main.zip
-rm -r main.zip
-rm -r /home/user/Downloads/raspberry_pi/
+yes | unzip main.zip
+yes | rm -r main.zip
+yes | rm -r /home/user/Downloads/raspberry_pi/
 
 mv /home/user/Desktop/gunshot-main /home/user/Downloads/raspberry_pi/
 
